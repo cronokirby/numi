@@ -1,0 +1,13 @@
+[package]
+name = "numi-web"
+description = "The web frontend for numi."
+# Inherit the remaining properties from the workspace.
+authors = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+version = { workspace = true }
+
+[dependencies]
+# Local dependencies.
+numi-spine = { workspace = true }

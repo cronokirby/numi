@@ -1,0 +1,9 @@
+[package]
+name = "numi-spine"
+description = "The core library for numi."
+# Inherit the remaining properties from the workspace.
+authors = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+version = { workspace = true }
